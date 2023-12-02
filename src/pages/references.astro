@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "References" sideBarActiveItemID="references">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Experience </div>
+  </div>
+
+  <HorizontalCard
+    title="Dr. Mary Land"
+    img="/src/img/MaryLand.jpg"
+    desc="mary.land@wmich.edu."
+    url= /concertband
+  />
+ 
+  <HorizontalCard
+    title="Scott Thornburg"
+    img="/src/img/ScottThornburg.jpeg"
+    desc="scott.thornburg@wmich.edu"
+    url="#"
+
+    
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Dr. Trey Harris"
+    img="/src/img/TreyHarris.webp"
+    desc="thomas.harris@wmich.edu"
+    url="#"
+
+    
+  />
+
+</BaseLayout>
