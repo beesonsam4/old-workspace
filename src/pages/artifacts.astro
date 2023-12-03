@@ -3,29 +3,30 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title="Projects" sideBarActiveItemID="services">
+<BaseLayout title="Artifacts" sideBarActiveItemID="artifacts">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Services Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Artifacts</div>
   </div>
 
   <HorizontalCard
-    title="Service 1"
-    img="/post_img.webp"
+    title="Teaching Inventory Database"
+    img="/src/img/TeachingInventoryDatabase.jpg"
+    desc="A collection of the things I teach and ways I can teach them."
+    url="https://woolen-foxtail-010.notion.site/af3fe7a842664c7b972facefb9870a37?v=baf0e4b41b0e4d3f9b188e239ec964a8"
+    target ="_blank"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Sample Handbook"
+    img="post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
     badge="NEW"
-    url="#"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Service 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Service 3"
-    img="/post_img.webp"
+    title=""
+    img="post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
     badge="NEW"
